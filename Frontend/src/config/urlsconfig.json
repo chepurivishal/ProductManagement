@@ -1,0 +1,50 @@
+{
+    "login" : {
+        "uri" : "/prod/login",
+        "method": "POST"
+    },
+    "signup" : {
+        "uri" : "/prod/signup",
+        "method" : "POST"
+    },
+    "addproduct" : {
+        "uri" : "/prod/api/user/:userId/product",
+        "method" : "POST"
+    },
+    "getproduct" : {
+        "uri" : "/prod/api/user/:userId/product/:id",
+        "method" : "GET"
+    },
+    "getproducts":{
+        "uri" : "/prod/api/user/:userId/product",
+        "method" : "GET"
+    },
+    "editproduct" : {
+        "uri" : "/prod/api/user/:userId/product/:id",
+        "method" : "PUT"
+    },
+    "deleteproduct" : {
+        "uri" :"/prod/api/user/:userId/product/:id",
+        "method" : "DELETE"
+    },
+    "addorder" : {
+        "uri" : "/prod/api/user/:userId/order",
+        "method" : "POST"
+    },
+    "getorder" : {
+        "uri" : "/prod/api/user/:userId/order/:id",
+        "method" : "GET"
+    },
+    "getorders":{
+        "uri" : "/prod/api/user/:userId/order",
+        "method" : "GET"
+    },
+    "editorder" : {
+        "uri" : "/prod/api/user/:userId/order/:id",
+        "method" : "PUT"
+    },
+    "deleteorder" : {
+        "uri" :"/prod/api/user/:userId/order/:id",
+        "method" : "DELETE"
+    }
+}

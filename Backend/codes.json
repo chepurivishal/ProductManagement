@@ -1,0 +1,12 @@
+{
+    "INV_DETAILS" : "Inavlid Details",
+    "MISSING_BODY": "Missing required details in REQUEST",
+    "ERR_IN_FETCH": "Error in fetching data",
+    "INV_PAYLOAD" : "Missing or Invalid Required fields",
+    "INTERNAL_SERVER_ERR": "Internal Server Error",
+    "USERNAME_ALREADY_EXISTS": "User with given username already exists",
+    "LOGIN_FAILED": "Login Failed, UserName or Password is wrong",
+    "INVALID_TOKEN": "Invalid User Token",
+    "TOKEN_REQUIRED": "Bearer Token Required",
+    "INVALID_USER": "Invalid User Access"
+}
